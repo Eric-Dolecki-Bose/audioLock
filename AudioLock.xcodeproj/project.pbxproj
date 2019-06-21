@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE9634C22BD314D00A566D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9634B22BD314D00A566D1 /* AppDelegate.swift */; };
+		5FE9634E22BD314D00A566D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9634D22BD314D00A566D1 /* ViewController.swift */; };
+		5FE9635122BD314D00A566D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9634F22BD314D00A566D1 /* Main.storyboard */; };
+		5FE9635322BD314F00A566D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9635222BD314F00A566D1 /* Assets.xcassets */; };
+		5FE9635622BD314F00A566D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9635422BD314F00A566D1 /* LaunchScreen.storyboard */; };
+		5FE9636C22BD35FA00A566D1 /* BLECore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636922BD35FA00A566D1 /* BLECore.framework */; };
+		5FE9636D22BD35FA00A566D1 /* BoseWearable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636A22BD35FA00A566D1 /* BoseWearable.framework */; };
+		5FE9636E22BD35FA00A566D1 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636B22BD35FA00A566D1 /* Logging.framework */; };
+		5FE9636F22BD365900A566D1 /* BLECore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636922BD35FA00A566D1 /* BLECore.framework */; };
+		5FE9637022BD365900A566D1 /* BLECore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636922BD35FA00A566D1 /* BLECore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5FE9637122BD365900A566D1 /* BoseWearable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636A22BD35FA00A566D1 /* BoseWearable.framework */; };
+		5FE9637222BD365900A566D1 /* BoseWearable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636A22BD35FA00A566D1 /* BoseWearable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5FE9637322BD365900A566D1 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636B22BD35FA00A566D1 /* Logging.framework */; };
+		5FE9637422BD365900A566D1 /* Logging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9636B22BD35FA00A566D1 /* Logging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5FE9637822BD3D7100A566D1 /* crowd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9637722BD3D7100A566D1 /* crowd.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FE9637522BD365900A566D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5FE9637222BD365900A566D1 /* BoseWearable.framework in Embed Frameworks */,
+				5FE9637022BD365900A566D1 /* BLECore.framework in Embed Frameworks */,
+				5FE9637422BD365900A566D1 /* Logging.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5FE9634822BD314D00A566D1 /* AudioLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE9634B22BD314D00A566D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE9634D22BD314D00A566D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FE9635022BD314D00A566D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE9635222BD314F00A566D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE9635522BD314F00A566D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE9635722BD314F00A566D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE9636922BD35FA00A566D1 /* BLECore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BLECore.framework; sourceTree = "<group>"; };
+		5FE9636A22BD35FA00A566D1 /* BoseWearable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoseWearable.framework; sourceTree = "<group>"; };
+		5FE9636B22BD35FA00A566D1 /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = "<group>"; };
+		5FE9637722BD3D7100A566D1 /* crowd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crowd.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE9634522BD314D00A566D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE9636D22BD35FA00A566D1 /* BoseWearable.framework in Frameworks */,
+				5FE9637122BD365900A566D1 /* BoseWearable.framework in Frameworks */,
+				5FE9637322BD365900A566D1 /* Logging.framework in Frameworks */,
+				5FE9636F22BD365900A566D1 /* BLECore.framework in Frameworks */,
+				5FE9636C22BD35FA00A566D1 /* BLECore.framework in Frameworks */,
+				5FE9636E22BD35FA00A566D1 /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE9633F22BD314D00A566D1 = {
+			isa = PBXGroup;
+			children = (
+				5FE9634A22BD314D00A566D1 /* AudioLock */,
+				5FE9634922BD314D00A566D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE9634922BD314D00A566D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9634822BD314D00A566D1 /* AudioLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE9634A22BD314D00A566D1 /* AudioLock */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9637622BD3D6200A566D1 /* Audio */,
+				5FE9636722BD35FA00A566D1 /* Frameworks */,
+				5FE9634B22BD314D00A566D1 /* AppDelegate.swift */,
+				5FE9634D22BD314D00A566D1 /* ViewController.swift */,
+				5FE9634F22BD314D00A566D1 /* Main.storyboard */,
+				5FE9635222BD314F00A566D1 /* Assets.xcassets */,
+				5FE9635422BD314F00A566D1 /* LaunchScreen.storyboard */,
+				5FE9635722BD314F00A566D1 /* Info.plist */,
+			);
+			path = AudioLock;
+			sourceTree = "<group>";
+		};
+		5FE9636722BD35FA00A566D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9636822BD35FA00A566D1 /* iOS */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FE9636822BD35FA00A566D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9636922BD35FA00A566D1 /* BLECore.framework */,
+				5FE9636A22BD35FA00A566D1 /* BoseWearable.framework */,
+				5FE9636B22BD35FA00A566D1 /* Logging.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5FE9637622BD3D6200A566D1 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9637722BD3D7100A566D1 /* crowd.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE9634722BD314D00A566D1 /* AudioLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE9635A22BD314F00A566D1 /* Build configuration list for PBXNativeTarget "AudioLock" */;
+			buildPhases = (
+				5FE9634422BD314D00A566D1 /* Sources */,
+				5FE9634522BD314D00A566D1 /* Frameworks */,
+				5FE9634622BD314D00A566D1 /* Resources */,
+				5FE9636622BD327B00A566D1 /* ShellScript */,
+				5FE9637522BD365900A566D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioLock;
+			productName = AudioLock;
+			productReference = 5FE9634822BD314D00A566D1 /* AudioLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE9634022BD314D00A566D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Eric Dolecki";
+				TargetAttributes = {
+					5FE9634722BD314D00A566D1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5FE9634322BD314D00A566D1 /* Build configuration list for PBXProject "AudioLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE9633F22BD314D00A566D1;
+			productRefGroup = 5FE9634922BD314D00A566D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE9634722BD314D00A566D1 /* AudioLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE9634622BD314D00A566D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE9635622BD314F00A566D1 /* LaunchScreen.storyboard in Resources */,
+				5FE9635322BD314F00A566D1 /* Assets.xcassets in Resources */,
+				5FE9637822BD3D7100A566D1 /* crowd.mp3 in Resources */,
+				5FE9635122BD314D00A566D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FE9636622BD327B00A566D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${PROJECT_DIR}/Libraries/BoseWearable/bin/strip-frameworks.sh\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE9634422BD314D00A566D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE9634E22BD314D00A566D1 /* ViewController.swift in Sources */,
+				5FE9634C22BD314D00A566D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FE9634F22BD314D00A566D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE9635022BD314D00A566D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE9635422BD314F00A566D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE9635522BD314F00A566D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE9635822BD314F00A566D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE9635922BD314F00A566D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE9635B22BD314F00A566D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83R86539GB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioLock/Frameworks/iOS",
+				);
+				INFOPLIST_FILE = AudioLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ericd.AudioLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE9635C22BD314F00A566D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83R86539GB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioLock/Frameworks/iOS",
+				);
+				INFOPLIST_FILE = AudioLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ericd.AudioLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE9634322BD314D00A566D1 /* Build configuration list for PBXProject "AudioLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE9635822BD314F00A566D1 /* Debug */,
+				5FE9635922BD314F00A566D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE9635A22BD314F00A566D1 /* Build configuration list for PBXNativeTarget "AudioLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE9635B22BD314F00A566D1 /* Debug */,
+				5FE9635C22BD314F00A566D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE9634022BD314D00A566D1 /* Project object */;
+}
